@@ -20,6 +20,9 @@ return {
 
     telescope.setup {
       defaults = {
+        layout_config = {
+          preview_cutoff = 1,
+        },
         -- Common Kickstart setting: mappings in insert mode
         mappings = {
           i = {
