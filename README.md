@@ -239,3 +239,9 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+## Installing Harpoon
+
+    Clone the following package into /home/camron/personal/harpoon
+
+    harpoon (make sure you're on branch harpoon2): https://github.com/ThePrimeagen/harpoon
+
