@@ -62,6 +62,8 @@ return {
       builtin.grep_string { search = vim.fn.input 'Grep > ' }
     end, { desc = '[P]roject [S]earch (Grep)' })
 
+    vim.keymap.set('n', '<leader>pr', builtin.resume, { desc = '[P]roject [R]esume' })
+
     vim.keymap.set('n', '<leader>vh', builtin.help_tags, { desc = '[V]im [H]elp' })
 
     -- === NEW: LSP KEYMAPS (The "Kickstart" definition jumping) ===
